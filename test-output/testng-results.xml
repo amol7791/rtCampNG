@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="143520" started-at="2014-12-04T07:31:52Z" finished-at="2014-12-04T07:34:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="143520" started-at="2014-12-04T07:31:52Z" finished-at="2014-12-04T07:34:15Z">
+      <class name="automation.rtMediaSiteTest">
+        <test-method status="PASS" signature="managetime()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="managetime" is-config="true" duration-ms="30" started-at="2014-12-04T13:01:52Z" finished-at="2014-12-04T13:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managetime -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="verifyHomepageTitle" duration-ms="18009" started-at="2014-12-04T13:01:52Z" finished-at="2014-12-04T13:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="AlreadyRegistered()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="AlreadyRegistered" duration-ms="17808" started-at="2014-12-04T13:02:10Z" finished-at="2014-12-04T13:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlreadyRegistered -->
+        <test-method status="PASS" signature="FaultyLogin()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="FaultyLogin" duration-ms="23822" started-at="2014-12-04T13:02:28Z" finished-at="2014-12-04T13:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FaultyLogin -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="Login" duration-ms="17591" started-at="2014-12-04T13:02:52Z" finished-at="2014-12-04T13:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="PostMediaPrivacy()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="PostMediaPrivacy" duration-ms="12666" started-at="2014-12-04T13:03:09Z" finished-at="2014-12-04T13:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostMediaPrivacy -->
+        <test-method status="PASS" signature="uploadimage()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="uploadimage" duration-ms="30168" started-at="2014-12-04T13:03:22Z" finished-at="2014-12-04T13:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadimage -->
+        <test-method status="PASS" signature="UploadImageUrl()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="UploadImageUrl" duration-ms="23384" started-at="2014-12-04T13:03:52Z" finished-at="2014-12-04T13:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadImageUrl -->
+        <test-method status="PASS" signature="close()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="close" is-config="true" duration-ms="16" started-at="2014-12-04T13:04:15Z" finished-at="2014-12-04T13:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- automation.rtMediaSiteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
