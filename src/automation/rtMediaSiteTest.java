@@ -3,20 +3,15 @@ package automation;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.SkipException;
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import automation.Credentials;
 
 
 
@@ -130,11 +125,11 @@ public class rtMediaSiteTest{
 
       
       //Entering User-name in the pop-up login menu
-      driver.findElement(By.xpath(".//*[@id='bp-login-widget-user-login']")).sendKeys("testuser7791"); 
+      driver.findElement(By.xpath(".//*[@id='bp-login-widget-user-login']")).sendKeys(Credentials.id); 
       System.out.println("User-Id Entered");
         
       //Entering Password in the pop-up login menu
-      driver.findElement(By.xpath(".//*[@id='bp-login-widget-user-pass']")).sendKeys("ceoNuO02LOS5");
+      driver.findElement(By.xpath(".//*[@id='bp-login-widget-user-pass']")).sendKeys(Credentials.pswd);
       System.out.println("Password Entered");
                 
       //Enter the login button/submit and verification
@@ -143,7 +138,7 @@ public class rtMediaSiteTest{
       		//just to make sure the profile page has opened and then only it can search 
       		Thread.sleep(3000);
       
-      if(driver.findElement(By.xpath(".//*[@id='header']/div/ul/li[4]/div/a/span")).getText().equals("testuser7791"))                
+      if(driver.findElement(By.xpath(".//*[@id='header']/div/ul/li[4]/div/a/span")).getText().equals(Credentials.id))                
       {        
       	System.out.println("Login Successfull");
       }
@@ -171,7 +166,7 @@ public class rtMediaSiteTest{
       driver.findElement(By.xpath(".//*[@id='rtmedia-add-media-button-post-update']")).click();   
       
       Runtime.getRuntime().exec("../RtCampNG/src/AutoITScript/upload.exe C:\\Users\\Amol Shah\\Desktop\\img.jpg");
-      //"C:\\Users\\Amol Shah\\Desktop\\img.jpg" - in above line place of this u can provide with your own url
+      //"C:\\Users\\Amol Shah\\Desktop\\img.jpg" - in above line place of this u can provide with your own url and this can be changed here only as we are passing a direct argument through cmd
       
       Thread.sleep(1000);
       System.out.println("File Added in queue for upload");         
@@ -237,7 +232,7 @@ public class rtMediaSiteTest{
       driver.findElement(By.xpath(".//*[@id='drag-drop-area']/div[1]/span[1]/select/option[2]")).click();
       System.out.println("Cover Photo Album selected for url path file upload");
       
-      driver.findElement(By.xpath(".//*[@id='rtmedia_url_upload_input']")).sendKeys("http://harvestfunders.com/upload/orig/project_9258.jpeg");	        
+      driver.findElement(By.xpath(".//*[@id='rtmedia_url_upload_input']")).sendKeys(Credentials.urlpath);	        
       System.out.println("Url selected successfully");
       
       driver.findElement(By.xpath(".//*[@id='rtSelectPrivacy']/option[2]")).click();
@@ -252,8 +247,7 @@ public class rtMediaSiteTest{
       Thread.sleep(5000);
 	  
   }
-  
-  
+    
   
   @AfterTest
   public void close(){

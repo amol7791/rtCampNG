@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="143520" started-at="2014-12-04T07:31:52Z" finished-at="2014-12-04T07:34:15Z">
+  <suite name="Default suite" duration-ms="171836" started-at="2014-12-06T07:27:22Z" finished-at="2014-12-06T07:30:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="143520" started-at="2014-12-04T07:31:52Z" finished-at="2014-12-04T07:34:15Z">
+    <test name="Default test" duration-ms="171836" started-at="2014-12-06T07:27:22Z" finished-at="2014-12-06T07:30:14Z">
       <class name="automation.rtMediaSiteTest">
-        <test-method status="PASS" signature="managetime()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="managetime" is-config="true" duration-ms="30" started-at="2014-12-04T13:01:52Z" finished-at="2014-12-04T13:01:52Z">
+        <test-method status="PASS" signature="managetime()[pri:0, instance:automation.rtMediaSiteTest@53da36ad]" name="managetime" is-config="true" duration-ms="285" started-at="2014-12-06T12:57:22Z" finished-at="2014-12-06T12:57:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- managetime -->
-        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="verifyHomepageTitle" duration-ms="18009" started-at="2014-12-04T13:01:52Z" finished-at="2014-12-04T13:02:10Z">
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:automation.rtMediaSiteTest@53da36ad]" name="verifyHomepageTitle" duration-ms="56115" started-at="2014-12-06T12:57:23Z" finished-at="2014-12-06T12:58:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomepageTitle -->
-        <test-method status="PASS" signature="AlreadyRegistered()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="AlreadyRegistered" duration-ms="17808" started-at="2014-12-04T13:02:10Z" finished-at="2014-12-04T13:02:28Z">
+        <test-method status="PASS" signature="AlreadyRegistered()[pri:0, instance:automation.rtMediaSiteTest@53da36ad]" name="AlreadyRegistered" duration-ms="16600" started-at="2014-12-06T12:58:19Z" finished-at="2014-12-06T12:58:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AlreadyRegistered -->
-        <test-method status="PASS" signature="FaultyLogin()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="FaultyLogin" duration-ms="23822" started-at="2014-12-04T13:02:28Z" finished-at="2014-12-04T13:02:52Z">
+        <test-method status="PASS" signature="FaultyLogin()[pri:0, instance:automation.rtMediaSiteTest@53da36ad]" name="FaultyLogin" duration-ms="22272" started-at="2014-12-06T12:58:35Z" finished-at="2014-12-06T12:58:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FaultyLogin -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="Login" duration-ms="17591" started-at="2014-12-04T13:02:52Z" finished-at="2014-12-04T13:03:09Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:automation.rtMediaSiteTest@53da36ad]" name="Login" duration-ms="16744" started-at="2014-12-06T12:58:58Z" finished-at="2014-12-06T12:59:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="PostMediaPrivacy()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="PostMediaPrivacy" duration-ms="12666" started-at="2014-12-04T13:03:09Z" finished-at="2014-12-04T13:03:22Z">
+        <test-method status="PASS" signature="PostMediaPrivacy()[pri:0, instance:automation.rtMediaSiteTest@53da36ad]" name="PostMediaPrivacy" duration-ms="13529" started-at="2014-12-06T12:59:14Z" finished-at="2014-12-06T12:59:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostMediaPrivacy -->
-        <test-method status="PASS" signature="uploadimage()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="uploadimage" duration-ms="30168" started-at="2014-12-04T13:03:22Z" finished-at="2014-12-04T13:03:52Z">
+        <test-method status="PASS" signature="uploadimage()[pri:0, instance:automation.rtMediaSiteTest@53da36ad]" name="uploadimage" duration-ms="22301" started-at="2014-12-06T12:59:28Z" finished-at="2014-12-06T12:59:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadimage -->
-        <test-method status="PASS" signature="UploadImageUrl()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="UploadImageUrl" duration-ms="23384" started-at="2014-12-04T13:03:52Z" finished-at="2014-12-04T13:04:15Z">
+        <test-method status="PASS" signature="UploadImageUrl()[pri:0, instance:automation.rtMediaSiteTest@53da36ad]" name="UploadImageUrl" duration-ms="23781" started-at="2014-12-06T12:59:50Z" finished-at="2014-12-06T13:00:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UploadImageUrl -->
-        <test-method status="PASS" signature="close()[pri:0, instance:automation.rtMediaSiteTest@c8a80d8]" name="close" is-config="true" duration-ms="16" started-at="2014-12-04T13:04:15Z" finished-at="2014-12-04T13:04:15Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:automation.rtMediaSiteTest@53da36ad]" name="close" is-config="true" duration-ms="24" started-at="2014-12-06T13:00:14Z" finished-at="2014-12-06T13:00:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
